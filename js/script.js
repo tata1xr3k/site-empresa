@@ -102,7 +102,7 @@ function valorCompra() {
 	for (var i = 0; i < valorTotal.length; i++) {
 		valor += valorTotal[i];
 	}
-	valorTotalCompra.innerHTML = valor;
+	valorTotalCompra.innerHTML = valor.toFixed(2);;
 	console.log(valorTotal.length);
 }
 
