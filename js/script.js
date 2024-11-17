@@ -1,7 +1,55 @@
 // Definir variáveis universais
-var valorTotal = [0, 0, 0, 0];
-var valorProduto = [0, 500, 5, 3000];
-var qtd = [0, 0, 0, 0];
+var valorTotal = [
+	0, //0
+	0,
+	0,
+	0,
+	0, //0
+	0,
+	0,
+	0,
+	0, //0
+	0,
+	0,
+	0,
+	0, //0
+	0,
+	0,
+	0,
+];
+var valorProduto = [
+	0, //não existe
+	12, //produto1
+	12, //produto2
+	7.99, //produto3
+	19.99, //produto4
+	9.99, //produto5
+	7.99, //produto6
+	7.99, //produto7
+	14.99, //produto8
+	3000, //produto9
+	3000, //produto10
+	3000, //produto11
+	3000, //produto12
+];
+var qtd = [
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+];
 
 // Trocar o nome pelo inserido no login
 function trocarNome() {
@@ -17,7 +65,7 @@ function adicionarItem(item) {
 	qtd[item] += 1;
 	valorTotal[item] = valorProduto[item] * qtd[item];
 	quantidade.innerHTML = qtd[item];
-	total.innerHTML = valorTotal[item];
+	total.innerHTML = valorTotal[item].toFixed(2);
 	console.log(quantidade);
 	valorCompra();
 }
@@ -30,7 +78,7 @@ function removerItem(item) {
 		var total = document.getElementById('total' + item);
 		quantidade.innerHTML = qtd[item];
 		valorTotal[item] = valorProduto[item] * qtd[item];
-		total.innerHTML = valorTotal[item];
+		total.innerHTML = valorTotal[item].toFixed(2);;
 		valorCompra();
 	}
 }
