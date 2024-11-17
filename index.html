@@ -40,7 +40,7 @@
 							</li>
 						</ul>
 
-						<a href="#" class="brand-logo center blue-text"><img width="100px" src="img/macbook.jpg"></a>
+						<a href="#" class="brand-logo center blue-text"><img width="100px" src="img/logo.jpg"></a>
 
 						<!-- "PERFIL" DO USUÁRIO -->
 						<ul class="right grey-text text-darken-3 hide-on-med-and-down">
@@ -81,7 +81,7 @@
 		</nav>
 	</header>
 		<br>
-		<CENTER><h4>Carrinho</h4></CENTER>
+ <CENTER><h4>Carrinho</h4></body></html></center>
 	<main>
 		<script type="text/javascript" src="js/script.js"></script>
 
@@ -95,8 +95,8 @@
 							<table class="responsive-table center">
 								<tbody id="carrinho">
 									<tr class="center" id="produto1">
-										<td><img width="100px" src="img/doce.jpeg"></td>
-										<td>Doce<br>R$10,00</td>
+										<td><img width="100px" src="img/bombom.jpg"></td>
+										<td>Bombom de morango<br>R$12,00</td>
 										<!-- ADICIONAR AO CARRINHO -->
 										<td><i onclick="adicionarItem(1)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
 										<td>
@@ -110,9 +110,37 @@
 										<!-- REMOVER PRODUTO DA LISTA -->
 										<td><i onclick="removerProduto(1)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
 									</tr>
+									<tr id="produto3" id="produto3">
+										<td><img width="100px" src="img/uva.jpg"></td>
+										<td>Bombom de uva<br>R$12,00</td>
+										<!-- ADICIONAR AO CARRINHO -->
+										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
+										<td>
+											<p id="quantidade3">0</p>
+										</td>
+										<!-- REMOVER DO CARRINHO -->
+										<td><i onclick="removerItem(3)" class="material-icons red-text" style="cursor: pointer;">remove_circle</i></td>
+										<!-- REMOVER PRODUTO DA LISTA -->
+										<td>Total<br>R$<span id="total3">00,00</span></td>
+										<td><i onclick="removerProduto(3)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
+									</tr>
+									<tr id="produto3" id="produto3">
+										<td><img width="100px" src="img/redvelvet.jpg"></td>
+										<td>Cookie red velvet<br>R$7,99</td>
+										<!-- ADICIONAR AO CARRINHO -->
+										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
+										<td>
+											<p id="quantidade3">0</p>
+										</td>
+										<!-- REMOVER DO CARRINHO -->
+										<td><i onclick="removerItem(3)" class="material-icons red-text" style="cursor: pointer;">remove_circle</i></td>
+										<!-- REMOVER PRODUTO DA LISTA -->
+										<td>Total<br>R$<span id="total3">00,00</span></td>
+										<td><i onclick="removerProduto(3)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
+									</tr>
 									<tr id="produto2" id="produto2">
-										<td><img width="100px" src="img/plant.png"></td>
-										<td>Planta<br>R$5,00</td>
+										<td><img width="100px" src="img/cookie.jpg"></td>
+										<td>Fatia de cookie de nutella<br>R$19,99</td>
 										<!-- ADICIONAR AO CARRINHO -->
 										<td><i onclick="adicionarItem(2)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
 										<td>
@@ -127,8 +155,50 @@
 										<td><i onclick="removerProduto(2)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
 									</tr>
 									<tr id="produto3" id="produto3">
-										<td><img width="100px" src="img/lightsaber.png"></td>
-										<td>Lightsaber<br>R$3000,00</td>
+										<td><img width="100px" src="img/pistache.jpg"></td>
+										<td>Brownie Pistache<br>R$9,99</td>
+										<!-- ADICIONAR AO CARRINHO -->
+										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
+										<td>
+											<p id="quantidade3">0</p>
+										</td>
+										<!-- REMOVER DO CARRINHO -->
+										<td><i onclick="removerItem(3)" class="material-icons red-text" style="cursor: pointer;">remove_circle</i></td>
+										<!-- REMOVER PRODUTO DA LISTA -->
+										<td>Total<br>R$<span id="total3">00,00</span></td>
+										<td><i onclick="removerProduto(3)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
+									</tr>
+									<tr id="produto3" id="produto3">
+										<td><img width="100px" src="img/brigadeiro.jpg"></td>
+										<td>Brigadeiro de morango<br>R$7,99</td>
+										<!-- ADICIONAR AO CARRINHO -->
+										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
+										<td>
+											<p id="quantidade3">0</p>
+										</td>
+										<!-- REMOVER DO CARRINHO -->
+										<td><i onclick="removerItem(3)" class="material-icons red-text" style="cursor: pointer;">remove_circle</i></td>
+										<!-- REMOVER PRODUTO DA LISTA -->
+										<td>Total<br>R$<span id="total3">00,00</span></td>
+										<td><i onclick="removerProduto(3)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
+									</tr>
+									<tr id="produto3" id="produto3">
+										<td><img width="100px" src="img/brownie.jpg"></td>
+										<td>Brownie de nutella<br>R$7,99</td>
+										<!-- ADICIONAR AO CARRINHO -->
+										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
+										<td>
+											<p id="quantidade3">0</p>
+										</td>
+										<!-- REMOVER DO CARRINHO -->
+										<td><i onclick="removerItem(3)" class="material-icons red-text" style="cursor: pointer;">remove_circle</i></td>
+										<!-- REMOVER PRODUTO DA LISTA -->
+										<td>Total<br>R$<span id="total3">00,00</span></td>
+										<td><i onclick="removerProduto(3)" class="material-icons blue-text text-darken-1" style="cursor: pointer">delete</i></td>
+									</tr>
+									<tr id="produto3" id="produto3">
+										<td><img width="100px" src="img/cone.jpg"></td>
+										<td>Cone de Kinder Bueno<br>R$14,99</td>
 										<!-- ADICIONAR AO CARRINHO -->
 										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">add_circle</i></td>
 										<td>
