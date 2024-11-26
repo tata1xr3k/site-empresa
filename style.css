@@ -39,12 +39,24 @@ nav {
 	margin-bottom: 3rem;
 }
 
-/* CSS Mobile*/
-
 @media screen and (max-width: 640px) {
 	body,
 	table,
 	fieldset {
 		max-width: 640px;
 	}
+}
+
+.encomenda-final{
+    color: #fff;
+    background-color: #4CAF50;;
+    text-align: center;
+	align-items: center;
+    cursor: pointer;
+	border: none;
+	font-size: 100%;
+	margin: 15px 535px;
+	border-radius: 2px;
+	padding: 10px;
+	font-family: Domine;
 }
